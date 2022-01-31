@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>heading</h1>
+    <p>paragraph</p>
+    <hr>
+    <p>paragraph <br>nextline.</p>
+    <pre>my lies over the ocean
+
+        my lies over the clg
+    </pre>
+    <b>bold tag</b>
+    <i>italic tag</i>
+    <p> the <strong> text is imp</strong> </p>
+    <p> the <em>textis emerised</em></p>
+    <p>this <small>is small tag</small></p>
+    <p>the cow give mark</p>
+    <p><del>red</del>blue
+</body>
+<p>
+<p>my fav colour<ins>red</ins></p>
+<p>this is sub <sub>tag</sub></p>
+<p>this is sup <sup>tag</sup></p>
+<p>this is blackquote
+<blockquote>quote</blockquote>
+</p>
+<p>this is q tag <q>qtag</q></p>
+<p>the <abbr title="world">who</abbr>was found in 1948</p>
+<address>
+    ahmed nagar colony azadpur road gulb <br>
+    phno:0000000000 <br>
+    city:klb
+</address>
+<p> the <cite> cite tag element usaullay in italic</cite></p>
+<p>the <bdo dir=""></bdo></p>
+<a href="https://www.w3schools.com/html/">link</a>
+<p> <a href="https://www.w3schools.com/html/">w3school</a></p>
+<img src="download1.png" alt="w3schoolimg"> <br>
+<a href="mailto:shoaibmohd237@gmail.com">send mail</a> <br>
+<button onclick="documentlocation=default">html tutorial</button> <br>
+<div>
+    <p><a href="#c2">jump to chapter 2</a></p>
+    <h2>chapter1</h2>
+    <p>paragraph of chapter1</p>
+    <h2 id="#c2">chapter2</h2>
+    <p>paragraph of chapterr2</p>
+</div>
+
+
+
+<h1>The map and area elements</h1>
+
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+    <!-- the total shape rect,circle,poly,default -->
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.jpg">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="cellphone.jpg">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffeecup.jpg">
+</map>
+
+<!-- image map in java script  -->
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+    <area shape="circle" coords="337,300,44" href="coffeecup.jpg" onclick="myFunction()">
+</map>
+
+<script>
+    function myFunction() {
+        alert("You clicked the coffee cup!");
+    }
+</script>
+
+<!-- picture tad  -->
+<picture>
+    <source media="(min-width:650px)" srcset="pinkflowers.jpg">
+    <source media="(min-width:465px)" srcset="whiteflower.jpg">
+    <img src="orangeflowers.jpg" alt="" style="width: auto;">
+</picture>
+
+<table>
+    <colgroup>
+        <col span="2" style="background-color: aqua;">
+    </colgroup>
+    <tr>
+        <th>company</th>
+        <th>contact</th>
+        <th>country</th>
+    </tr>
+    <tr>
+        <td>wipro</td>
+        <td>contact no</td>
+        <td>india</td>
+    </tr>
+</table>
+
+<ul style="list-style-type: square;">
+    <li>cofee</li>
+    <li>tea</li>
+</ul>
+<ol>
+    <li>tea</li>
+    <li>cofee</li>
+</ol>
+
+<dl>
+    <dt>cofeee </dt>
+    <dd>tea</dd>
+    <dt>milk</dt>
+    <dd>cold drink</dd>
+</dl>
+
+<p>Residency Statement <b> Is the # 1 Medical </b>Residency <strong>Personal Statement Provider in the Field</strong>.
+    Have Your Residency
+    <i> Personal Statement </i> Expertly <em>Edited or Written</em> from Scratch. <small>a2</small> Guaranteed
+    Satisfaction. Over 45,000 Applicants.
+    <del>2</del> Experienced Editor ims. Types: <ins>and</ins> Fast Turnaround Times, Expert Consultants.
+</p>
+
+<p style="background-color: aqua;">paragraph 1</p>
+<p style="color: aquamarine;">paragraph2</p>
+<p style="font-size: medium;">paragraph3</p>
+<p style="text-align: center;">paragraph4</p>
+
+<p><blockquote>rsidency statement</blockquote> Residency Statement Is the # 1 <q>Medical </q>Residency Personal Statement Provider in the Field. Have Your Residency
+   <abbr title="who">whoooo</abbr> Personal <address>john</address> Statement <cite>ahmed nara</cite> Expertly Edited or Written from Scratch. Guaranteed Satisfaction. Over 45,000 Applicants.
+    Experienced <bdo>types</bdo> Types: Fast Turnaround Times, Expert Consultants.</p>
+
+ <iframe src="cellphone.jpg" frameborder="0"></iframe>
+ <a href="index.html">home</a>
+
+</body>
+
+</html>
